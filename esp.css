@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("microwaveoven (1).jpg") no-repeat center center fixed;
+    background-size: cover;
+}
+.container h1{
+    font-family: 'Lobster', cursive;
+    width: 100%;
+    display: inline-block;
+    font-size:100px;
+    border-bottom: 5px solid rgb(254, 254, 254);
+    margin-bottom: 10px;
+    padding: 13px 0;
+}
+.container{
+    /* border: 12px solid black; */
+ 
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+
+}
+.box{
+    border-bottom:  2px solid rgb(255, 255, 255) ;
+    width: 100%;
+    margin: 22px 0px ;
+    /* border: 2px solid rgb(255, 255, 255); */
+}
+.box input{
+    color:white;
+    background: none;
+    width: 75%;
+    padding: 5px 12px;
+    font-size: 20px;
+
+    border: none;
+    outline: none;
+   
+    
+}
+.box i{
+    width: 25px;
+    /* padding:0 12px; */
+    text-align: center;
+}
+.button{
+    color: white;
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid  white;
+    font-size: 18px;
+    background: none;
+    font-weight: bold;
+}
+.button:hover{
+    color: white;
+    opacity: 0.5;
+    background: black;
+ 
+}
